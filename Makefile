@@ -8,4 +8,7 @@ help: ##Show this help
 
 .PHONY: serve
 serve: ## Serve this site locally
-	bundle exec jekyll serve
+	bundle exec jekyll serve --drafts
+
+syntax: ## Set syntax highlighting colors to STYLE
+	rougify style ${STYLE} > assets/css/syntax_gen.css

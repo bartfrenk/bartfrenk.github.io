@@ -1,0 +1,45 @@
+code pre {
+  padding: 15px 15px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  white-space: pre;
+  overflow-x: auto;
+  word-break: inherit;
+  word-wrap: inherit;
+}
+
+/* containing table */
+table.rouge-table {
+    margin: 0px;
+    border: solid 1px;
+    border-color: #CCCCCC;
+}
+
+/* gutter containing line numbers */
+td.rouge-gutter {
+    width: 3em;
+    border: none;
+    border-right: solid 1px;
+    border-color: #EEEEEE;
+    background: #F7F7F9;
+
+}
+
+/* code */
+td.rouge-code {
+    border: none;
+    background: white;
+}
+
+
+.highlight table td {
+    padding: 0px;
+}
+
+/* line numbers */
+pre.lineno {
+    color: #BBBBDD;
+    text-align: right;
+    border: none;
+    word-wrap: normal;
+}
