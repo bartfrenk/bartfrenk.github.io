@@ -24,7 +24,7 @@ theme_settings:
   footer_text:
   # Icons
   rss: false
-  email_address: "bart.frenk@gmail.com"
+  email_address:
   behance:
   bitbucket:
   dribbble:
@@ -34,7 +34,7 @@ theme_settings:
   github: "bartfrenk"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: "https://www.linkedin.com/in/bartfrenk/"
   pinterest:
   reddit:
   soundcloud:
