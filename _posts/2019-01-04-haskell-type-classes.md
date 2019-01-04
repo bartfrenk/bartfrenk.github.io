@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview of Haskell type classes
+title: Overview of Haskell base type classes
 tags: [haskell]
 ---
 
