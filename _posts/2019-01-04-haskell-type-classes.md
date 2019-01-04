@@ -18,6 +18,9 @@ To read the diagram:
 * Dashed lines indicate that there is a construction to make instances for the
   destination type class from instances of the source type class. An example is
   defining an Arrow instance for the Kleisli arrows of a monad.
+* The methods with a gray background are redundant (however, see the
+  [MonadOfNoReturn](https://ghc.haskell.org/trac/ghc/wiki/Proposal/MonadOfNoReturnproposal)
+  proposal).
 
 ---
 
@@ -26,6 +29,4 @@ To read the diagram:
 </a>
 
 ---
-
-[draw.io source]({{ site.baseurl }}/assets/src/haskell_type_classes.xml)
-
+[draw.io source]({{ site.baseurl }}/assets/src/haskell_type_classes.xml)<br /><br />
