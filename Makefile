@@ -1,4 +1,4 @@
-APP_NAME := "Jekyll Blog"
+APP_NAME := "Creative Abstraction"
 
 .PHONY: help
 help: ##Show this help
@@ -7,7 +7,11 @@ help: ##Show this help
 	fgrep -v fgrep | sed -e 's/## */##/' | column -t -s##
 
 .PHONY: serve
-serve: ## Serve this site locally
+serve: ## Serve without drafts
+	bundle exec jekyll serve
+
+.PHONY: serve
+serve-draft: ## Serve with drafts
 	bundle exec jekyll serve --drafts
 
 syntax: ## Set syntax highlighting colors to STYLE

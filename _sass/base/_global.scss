@@ -36,16 +36,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 h1 {
-  font-size: 2.5em;
-}
-h2 {
   font-size: 2em;
 }
-h3 {
+h2 {
   font-size: 1.5em;
 }
-h4 {
+h3 {
   font-size: 1.15em;
+}
+h4 {
+  font-size: 1.00em;
 }
 blockquote {
     border-left: 2px solid;
@@ -86,7 +86,7 @@ dd {
     margin-left: 2em;
 }
 p, ol, ul, dl, .math-display {
-  line-height: 1.5;
+  line-height: 1.7;
   margin-bottom: 1em;
 }
 // KaTeX math display
@@ -100,7 +100,8 @@ li > ul, li > ol {
     margin-left: 1em;
 }
 ol, ul {
-  list-style-position: inside;
+  list-style-position: outside;
+  padding-left: 1em;
 }
 hr {
   border: 0;

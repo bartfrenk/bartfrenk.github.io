@@ -13,18 +13,13 @@ url: "https://bartfrenk.github.io/"
 theme_settings:
   # Meta
   title: Bart Frenk
-  avatar: assets/img/avatar.png
-  favicon: assets/favicon.ico
+  avatar:
+  favicon:
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-     tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this
-     feature.</p>
+  header_text: 
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a
@@ -32,7 +27,7 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "bart.frenk@gmail.com"
   behance:
   bitbucket:
   dribbble:
